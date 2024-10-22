@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.ArrayList;
 
 public class App {
     //Write code that will:
@@ -8,6 +8,13 @@ public class App {
     //   I add more elements to your ArrayList. For example, I might add 7 to the
     //   ArrayList and this should still work.
     public static void main(String[] args) throws Exception {
-        
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(6);
+        numbers.add(3);
+        numbers.add(1);
+        numbers.add(2);
+        for(int i = 0; i < numbers.size(); i++){
+            System.out.println(numbers.get(i));
+        }
     }
 }
